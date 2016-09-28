@@ -1,0 +1,8 @@
+---
+applications:
+  - name: lordthankyou
+    path: target/ideals.war
+    services:
+      - mysql
+env:
+    SPRING_PROFILES_ACTIVE: development
